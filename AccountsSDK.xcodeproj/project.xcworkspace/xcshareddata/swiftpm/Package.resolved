@@ -1,0 +1,15 @@
+{
+  "originHash" : "2bf45cdff44fbcc253787c3ceef942a8f3bfc5fb6523b72e2b9fa7add42d3c86",
+  "pins" : [
+    {
+      "identity" : "sdk-model-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Wantsa/sdk-model-ios-framework.git",
+      "state" : {
+        "revision" : "b0f0894afd76a17725a541711c5f8b6578d4e39f",
+        "version" : "0.0.6"
+      }
+    }
+  ],
+  "version" : 3
+}
