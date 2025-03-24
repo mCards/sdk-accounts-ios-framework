@@ -1,0 +1,169 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios18.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AccountsSDK
+@_exported import AccountsSDK
+import CoreSDK
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class Account : Swift.Equatable, Swift.Codable {
+  public var brand: Swift.String
+  public var last4: Swift.String
+  public var priority: Swift.Int
+  public var status: AccountsSDK.Account.SourceStatus
+  public var uuid: Swift.String
+  public var name: Swift.String
+  public var paymentGatewayID: Swift.String
+  final public let type: AccountsSDK.Account.SourceType?
+  public init(brand: Swift.String = "", last4: Swift.String = "", priority: Swift.Int = 0, status: AccountsSDK.Account.SourceStatus = .none, uuid: Swift.String = "", name: Swift.String = "", paymentGatewayID: Swift.String = "")
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func isEqual(to object: Any?) -> Swift.Bool
+  public static func == (lhs: AccountsSDK.Account, rhs: AccountsSDK.Account) -> Swift.Bool
+  public enum SourceStatus : Swift.String, Swift.Equatable, Swift.Codable {
+    case inactive
+    case active
+    case pending
+    case error
+    case expired
+    case none
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum SourceType : Swift.String, Swift.Equatable, Swift.Codable {
+    case visa
+    case masterCard
+    case amex
+    case td
+    case weChat
+    case bankAccount
+    public var title: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  @objc deinit
+}
+public struct AddAccountParams : Swift.Codable {
+  public var name: Swift.String?
+  public var token: Swift.String?
+  public var type: Swift.String
+  public var data: AccountsSDK.GatewayMetadata?
+  public init(name: Swift.String?, token: Swift.String?, type: Swift.String, data: AccountsSDK.GatewayMetadata?)
+  public init(name: Swift.String?, token: Swift.String?, type: AccountsSDK.PaymentGateway.AccountType, data: AccountsSDK.GatewayMetadata?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DeleteFundingSourceRequest : Swift.Codable {
+  public var name: Swift.String
+  public var status: Swift.String
+  public init(name: Swift.String, status: AccountsSDK.DeleteFundingSourceRequest.Status = .inactive)
+  public enum Status : Swift.String {
+    case active
+    case inactive
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class PaymentGateway : Swift.Codable {
+  public enum AccountType : Swift.String, Swift.Codable {
+    case paymentCard
+    case bankAccount
+    case bnpl
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum PaymentGatewayType : Swift.String, Swift.Codable {
+    case stripe
+    case plaid
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var type: AccountsSDK.PaymentGateway.AccountType?
+  public var paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType?
+  public var metaData: AccountsSDK.GatewayMetadata?
+  public init(type: AccountsSDK.PaymentGateway.AccountType? = nil, paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType? = nil, metadata: AccountsSDK.GatewayMetadata? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class GatewayMetadata : Swift.Codable {
+  public var totalAmount: Swift.Double?
+  public var formattedTotalAmount: Swift.String?
+  public var tandcUrl: Swift.String?
+  public init(totalAmount: Swift.Double? = nil, formattedTotalAmount: Swift.String? = nil, tandcUrl: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public struct PlaidFundingSource : Swift.Codable {
+  public var token: Swift.String
+  public var type: Swift.String
+  public init(token: Swift.String, type: Swift.String = "bank_account")
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PlaidLinkToken : Swift.Codable {
+  public let linkToken: Swift.String?
+  public let expiration: Swift.String?
+  public let requestId: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol AccountsSdk {
+  func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any AccountsSDK.ASDKTokenRefreshCallback, loggingCallback: (any CoreSDK.LoggingCallback)?)
+  func configure(accessToken: Swift.String, tokenRefreshCallback: any AccountsSDK.ASDKTokenRefreshCallback)
+  func getAccounts(completion: @escaping ((_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void))
+  func getPaymentGateways(completion: @escaping ((_ result: Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>) -> Swift.Void))
+  func addAccount(stripeCardToken: Swift.String?, name: Swift.String?, type: AccountsSDK.PaymentGateway.AccountType, completion: @escaping ((_ result: Swift.Result<AccountsSDK.Account, any Swift.Error>) -> Swift.Void))
+  func renameAccounts(renameMap: [Swift.String : Swift.String], completion: @escaping ((_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void))
+  func getExistingPlaidToken(appId: Swift.String, accountId: Swift.String, completion: @escaping ((_ result: Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> Swift.Void))
+  func getNewPlaidToken(appId: Swift.String, completion: @escaping ((_ result: Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> Swift.Void))
+  func addPlaidAccount(publicToken: Swift.String, completion: @escaping ((_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void))
+  func deactivateAccount(accountId: Swift.String, name: Swift.String, completion: @escaping ((_ result: Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void))
+  func reorderAccounts(accountIds: [Swift.String], completion: @escaping ((_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void))
+  func logout()
+}
+public protocol ASDKTokenRefreshCallback {
+  func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class AccountsSdkProvider {
+  public static let shared: any AccountsSDK.AccountsSdk
+  @objc deinit
+}
+extension AccountsSDK.Account.SourceStatus : Swift.Hashable {}
+extension AccountsSDK.Account.SourceStatus : Swift.RawRepresentable {}
+extension AccountsSDK.Account.SourceType : Swift.Hashable {}
+extension AccountsSDK.Account.SourceType : Swift.RawRepresentable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Equatable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Hashable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.RawRepresentable {}
+extension AccountsSDK.PaymentGateway.AccountType : Swift.Equatable {}
+extension AccountsSDK.PaymentGateway.AccountType : Swift.Hashable {}
+extension AccountsSDK.PaymentGateway.AccountType : Swift.RawRepresentable {}
+extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.Equatable {}
+extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.Hashable {}
+extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.RawRepresentable {}
