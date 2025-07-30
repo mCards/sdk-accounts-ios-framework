@@ -4,57 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		cm5KJKeJKOtmxTDwWiok7u+mLGA=
-		</data>
 		<key>Headers/AccountsSDK.h</key>
 		<data>
 		IVeSXKW9hu+6V6z1iJZtXmqGPKQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hNiyfa3+ikpxr5nmpbz8TG1orI0=
+		UWxmNLhCH9hNKQUJtJQN9o4LV0A=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2vB8bjwR+2wfCbiMOoCJ6QkyZ0o=
+		iCH6KqN/mmUV+aCjti1LfQnWyXk=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MiPRByq7L3VrmNylta9bTZtcuF4=
+		+0n0Xt7kQzdtqEEy82XpAQTUhg8=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dgY2s/Sz+vsw4gWoCFhKgKz3FkU=
+		FzTES97li61cnTzIKa0Zix+EIVo=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MiPRByq7L3VrmNylta9bTZtcuF4=
+		+0n0Xt7kQzdtqEEy82XpAQTUhg8=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RZ481RClj2you6UdnjkXvLihW64=
+		7PhmT6TGFrukIF/daHFq50EFOEY=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2vB8bjwR+2wfCbiMOoCJ6QkyZ0o=
+		iCH6KqN/mmUV+aCjti1LfQnWyXk=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JA0ogaNQcgh+hN0VyiUUc7sDxIY=
+		G9+8a/gjPhbco3lTZnYxJRXr56k=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4YxFyyHS+afrQicExK1/NCRTkSI=
+		ZOxQ8EPIY/Hxh7yLWlA3LC4qDM4=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JA0ogaNQcgh+hN0VyiUUc7sDxIY=
+		G9+8a/gjPhbco3lTZnYxJRXr56k=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hMxPUd2fzIXEl24dgMfaMURtZUU=
+		MjGjno2Id195nzvJN5wm+lvK9hE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,13 +59,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YakiTrf70Nq3hKZjn0lW7zPrLKykpZ42YvT9RzcwpcE=
-			</data>
-		</dict>
 		<key>Headers/AccountsSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -81,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bRJ6al8ZOu9ZHRvb/JEM8W219+127Rsj/y0ute16OkI=
+			TVLOXxovt1t4D7IQBFrPqsALld9xALoDYZbJLGlK8+E=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpvqtpvjgFOTr/3Pt35DWLHS3ZibuYXVPXs3Vpz/Q40=
+			Fy6O9pmGEqjFccwzbvdtSsZPXu/+DBWCXFiMikHxZ3M=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zNuTgLyVZvDU0ohRG6rOh1Hu4iataYAluHM5xeFI64U=
+			b2B0CYzXpXE8zpNzG3eecQwX5dBvEkMT9gbRfkiyuDo=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpvqtpvjgFOTr/3Pt35DWLHS3ZibuYXVPXs3Vpz/Q40=
+			Fy6O9pmGEqjFccwzbvdtSsZPXu/+DBWCXFiMikHxZ3M=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hp2YmEy/2aZ5JJ9LOWjFx33NPIsEzqip9X+pNA60rFc=
+			DBHtrzcLA5Q0v9pDayCDN+85gEd6sTlPynwPLhYEl/E=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bRJ6al8ZOu9ZHRvb/JEM8W219+127Rsj/y0ute16OkI=
+			TVLOXxovt1t4D7IQBFrPqsALld9xALoDYZbJLGlK8+E=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cFf5UXg7pDnRaaD6WPCPMMwWGVguVHoswAnunaf2cyY=
+			Hbh0eqZkj9NlwXRSlWHQ2ycGfWIudBm6T1ejh1rAibw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YLP33VFKc/BQkGRNBiL1A2l6mf3vKBjicr5XcDW3fs=
+			rNC8vMbgfE7rKh1XtkuvQWPO8b/ocjUhEQpRnPPUnII=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cFf5UXg7pDnRaaD6WPCPMMwWGVguVHoswAnunaf2cyY=
+			Hbh0eqZkj9NlwXRSlWHQ2ycGfWIudBm6T1ejh1rAibw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/62nbxBuweL3QnNmNwde7rfOye6kPchNQwv+0OlEdI=
+			VkB4jho8SBn9Lc/cmsw01fV0xLnX0E+5nIMVwp33NFA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
