@@ -10,57 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class PaymentGateway : Swift.Codable {
-  public enum AccountType : Swift.String, Swift.Codable {
-    case paymentCard
-    case bankAccount
-    case bnpl
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public enum PaymentGatewayType : Swift.String, Swift.Codable {
-    case stripe
-    case plaid
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  public var type: AccountsSDK.PaymentGateway.AccountType?
-  public var paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType?
-  public var metaData: AccountsSDK.GatewayMetadata?
-  public init(type: AccountsSDK.PaymentGateway.AccountType? = nil, paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType? = nil, metadata: AccountsSDK.GatewayMetadata? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public class GatewayMetadata : Swift.Codable {
-  public var totalAmount: Swift.Double?
-  public var formattedTotalAmount: Swift.String?
-  public var tandcUrl: Swift.String?
-  public init(totalAmount: Swift.Double? = nil, formattedTotalAmount: Swift.String? = nil, tandcUrl: Swift.String? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public struct PlaidFundingSource : Swift.Codable {
-  public var token: Swift.String
-  public var type: Swift.String
-  public init(token: Swift.String, type: Swift.String = "bank_account")
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct PlaidLinkToken : Swift.Codable {
-  public let linkToken: Swift.String?
-  public let expiration: Swift.String?
-  public let requestId: Swift.String?
-  public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-}
 public class Account : Swift.Equatable, Swift.Codable {
   public var brand: Swift.String
   public var last4: Swift.String
@@ -137,14 +86,65 @@ public protocol ASDKTokenRefreshCallback {
   public static let shared: any AccountsSDK.AccountsSdk
   @objc deinit
 }
+public class PaymentGateway : Swift.Codable {
+  public enum AccountType : Swift.String, Swift.Codable {
+    case paymentCard
+    case bankAccount
+    case bnpl
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum PaymentGatewayType : Swift.String, Swift.Codable {
+    case stripe
+    case plaid
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public var type: AccountsSDK.PaymentGateway.AccountType?
+  public var paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType?
+  public var metaData: AccountsSDK.GatewayMetadata?
+  public init(type: AccountsSDK.PaymentGateway.AccountType? = nil, paymentGatewayType: AccountsSDK.PaymentGateway.PaymentGatewayType? = nil, metadata: AccountsSDK.GatewayMetadata? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class GatewayMetadata : Swift.Codable {
+  public var totalAmount: Swift.Double?
+  public var formattedTotalAmount: Swift.String?
+  public var tandcUrl: Swift.String?
+  public init(totalAmount: Swift.Double? = nil, formattedTotalAmount: Swift.String? = nil, tandcUrl: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public struct PlaidFundingSource : Swift.Codable {
+  public var token: Swift.String
+  public var type: Swift.String
+  public init(token: Swift.String, type: Swift.String = "bank_account")
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PlaidLinkToken : Swift.Codable {
+  public let linkToken: Swift.String?
+  public let expiration: Swift.String?
+  public let requestId: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension AccountsSDK.Account.SourceStatus : Swift.Hashable {}
+extension AccountsSDK.Account.SourceStatus : Swift.RawRepresentable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Equatable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Hashable {}
+extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.RawRepresentable {}
 extension AccountsSDK.PaymentGateway.AccountType : Swift.Equatable {}
 extension AccountsSDK.PaymentGateway.AccountType : Swift.Hashable {}
 extension AccountsSDK.PaymentGateway.AccountType : Swift.RawRepresentable {}
 extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.Equatable {}
 extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.Hashable {}
 extension AccountsSDK.PaymentGateway.PaymentGatewayType : Swift.RawRepresentable {}
-extension AccountsSDK.Account.SourceStatus : Swift.Hashable {}
-extension AccountsSDK.Account.SourceStatus : Swift.RawRepresentable {}
-extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Equatable {}
-extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.Hashable {}
-extension AccountsSDK.DeleteFundingSourceRequest.Status : Swift.RawRepresentable {}

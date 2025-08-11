@@ -6,6 +6,23 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
         "declKind": "Import",
@@ -5711,23 +5728,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreSDK",
-        "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "AccountsSDK"
       }
