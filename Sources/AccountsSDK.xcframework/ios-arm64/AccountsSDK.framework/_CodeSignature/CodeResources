@@ -4,37 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		cm5KJKeJKOtmxTDwWiok7u+mLGA=
-		</data>
 		<key>Headers/AccountsSDK.h</key>
 		<data>
 		IVeSXKW9hu+6V6z1iJZtXmqGPKQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gv/FsBYUZy9MfIyGK2p47zOP7Vw=
+		vS2S6SAKvDuxSV0sTbkDcW+j2Ik=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZKM1OEAo9zHq2KCJ+9WOxyF5AlI=
+		9aEOo1bfoUgHHwFDoMhIl9rYyw8=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		YsKVAMdYYrv5LJ4FSBNDICF2AjM=
+		8JtzPeA7b88mNwM8Ehlkzcpc6SM=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		qkENd9Otawl/zn3StFLs3lqlAqY=
+		5QcEzz0mmYehIQfDEdcr60lssS0=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YsKVAMdYYrv5LJ4FSBNDICF2AjM=
+		8JtzPeA7b88mNwM8Ehlkzcpc6SM=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KXH4QR5EgCF2L84ezp0Rfps5t6o=
+		PnLVm+rXECgRwtUzyB8gydyIWhw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,13 +39,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YakiTrf70Nq3hKZjn0lW7zPrLKykpZ42YvT9RzcwpcE=
-			</data>
-		</dict>
 		<key>Headers/AccountsSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -61,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYNOh3mxPUfDbWOfFHyOLMtO0wJaSFIV7o18bGE1p3Q=
+			Eec4aIpT8aLQ8adyzB4ek85U9rqhU4ORLE1PRuxdE9Y=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fWrgk50Z3Nrz/G7Cdr5egf4d7GoeHhJ8Fg0/+njbRY=
+			vW39hNxhb84uFwt7Q0ydbc2xDwLc2kXXraIoo2NS/zw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y4qBWjOfi1LFG5IbsBykh2IsAq97jNROnP24JNg2F/4=
+			xwVRTs4J09aunxSTTYFDJhHiCnj6RGp3/UmgMKpzKms=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fWrgk50Z3Nrz/G7Cdr5egf4d7GoeHhJ8Fg0/+njbRY=
+			vW39hNxhb84uFwt7Q0ydbc2xDwLc2kXXraIoo2NS/zw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qUgP60ygQzMVBod+Ci3FW7nX3AM5jSZE4lsEjHtmxjs=
+			OPr8rQlGzaFAfChyc7SUpgo9lFGIn9hx0++VM9cPj2k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
