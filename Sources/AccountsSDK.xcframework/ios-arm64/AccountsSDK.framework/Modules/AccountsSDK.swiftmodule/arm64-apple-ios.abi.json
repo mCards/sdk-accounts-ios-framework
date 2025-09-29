@@ -9,6 +9,328 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlaidFundingSource",
+        "printedName": "PlaidFundingSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvp",
+            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvg",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvs",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvM",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvp",
+            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvg",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvs",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvM",
+                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlaidFundingSource",
+                "printedName": "AccountsSDK.PlaidFundingSource",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK18PlaidFundingSourceV5token4typeACSS_SStcfc",
+            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5token4typeACSS_SStcfc",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK18PlaidFundingSourceV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlaidFundingSource",
+                "printedName": "AccountsSDK.PlaidFundingSource",
+                "usr": "s:11AccountsSDK18PlaidFundingSourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK18PlaidFundingSourceV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AccountsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11AccountsSDK18PlaidFundingSourceV",
+        "mangledName": "$s11AccountsSDK18PlaidFundingSourceV",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "AccountsSDK",
         "declAttributes": [
           "RawDocComment"
@@ -23,10 +345,1308 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeleteFundingSourceRequest",
+        "printedName": "DeleteFundingSourceRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvp",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvg",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvs",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvM",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvp",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvg",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvs",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvM",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeleteFundingSourceRequest",
+                "printedName": "AccountsSDK.DeleteFundingSourceRequest",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Status",
+                "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                "hasDefaultArg": true,
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4name6statusACSS_AC6StatusOtcfc",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4name6statusACSS_AC6StatusOtcfc",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Status",
+            "printedName": "Status",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "active",
+                "printedName": "active",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.DeleteFundingSourceRequest.Status.Type) -> AccountsSDK.DeleteFundingSourceRequest.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO6activeyA2EmF",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO6activeyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "inactive",
+                "printedName": "inactive",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.DeleteFundingSourceRequest.Status.Type) -> AccountsSDK.DeleteFundingSourceRequest.Status",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8inactiveyA2EmF",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8inactiveyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Status",
+                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
+                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueAESgSS_tcfc",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvp",
+                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvp",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvg",
+                    "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvg",
+                    "moduleName": "AccountsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeleteFundingSourceRequest",
+                "printedName": "AccountsSDK.DeleteFundingSourceRequest",
+                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AccountsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV",
+        "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccountsSdk",
+        "printedName": "AccountsSdk",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(accessToken:debugMode:tokenRefreshCallback:loggingCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ASDKTokenRefreshCallback",
+                "printedName": "any AccountsSDK.ASDKTokenRefreshCallback",
+                "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CoreSDK.LoggingCallback)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoggingCallback",
+                    "printedName": "any CoreSDK.LoggingCallback",
+                    "usr": "s:7CoreSDK15LoggingCallbackP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09ASDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
+            "mangledName": "$s11AccountsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09ASDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(accessToken:tokenRefreshCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ASDKTokenRefreshCallback",
+                "printedName": "any AccountsSDK.ASDKTokenRefreshCallback",
+                "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09ASDKTokenhI0_ptF",
+            "mangledName": "$s11AccountsSDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09ASDKTokenhI0_ptF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAccounts",
+            "printedName": "getAccounts(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AccountsSDK.Account]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Account",
+                            "printedName": "AccountsSDK.Account",
+                            "usr": "s:11AccountsSDK7AccountC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
+            "mangledName": "$s11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentGateways",
+            "printedName": "getPaymentGateways(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AccountsSDK.PaymentGateway]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PaymentGateway",
+                            "printedName": "AccountsSDK.PaymentGateway",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
+            "mangledName": "$s11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addAccount",
+            "printedName": "addAccount(stripeCardToken:name:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AccountsSDK.Account, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AccountsSDK.Account, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Account",
+                        "printedName": "AccountsSDK.Account",
+                        "usr": "s:11AccountsSDK7AccountC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name10completionySS_SSys6ResultOyAA0E0Cs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name10completionySS_SSys6ResultOyAA0E0Cs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renameAccounts",
+            "printedName": "renameAccounts(renameMap:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AccountsSDK.Account]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Account",
+                            "printedName": "AccountsSDK.Account",
+                            "usr": "s:11AccountsSDK7AccountC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExistingPlaidToken",
+            "printedName": "getExistingPlaidToken(appId:accountId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlaidLinkToken",
+                        "printedName": "AccountsSDK.PlaidLinkToken",
+                        "usr": "s:11AccountsSDK14PlaidLinkTokenV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNewPlaidToken",
+            "printedName": "getNewPlaidToken(appId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PlaidLinkToken",
+                        "printedName": "AccountsSDK.PlaidLinkToken",
+                        "usr": "s:11AccountsSDK14PlaidLinkTokenV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addPlaidAccount",
+            "printedName": "addPlaidAccount(publicToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AccountsSDK.Account]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Account",
+                            "printedName": "AccountsSDK.Account",
+                            "usr": "s:11AccountsSDK7AccountC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deactivateAccount",
+            "printedName": "deactivateAccount(accountId:name:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP17deactivateAccount9accountId4name10completionySS_SSys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP17deactivateAccount9accountId4name10completionySS_SSys6ResultOySbs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reorderAccounts",
+            "printedName": "reorderAccounts(accountIds:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AccountsSDK.Account]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Account",
+                            "printedName": "AccountsSDK.Account",
+                            "usr": "s:11AccountsSDK7AccountC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP6logoutyyF",
+            "mangledName": "$s11AccountsSDK0A3SdkP6logoutyyF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11AccountsSDK0A3SdkP",
+        "mangledName": "$s11AccountsSDK0A3SdkP",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1443,2086 +3063,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "AddAccountParams",
-        "printedName": "AddAccountParams",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvp",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvg",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvs",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvM",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvp",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvg",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvs",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvM",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvp",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvg",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvs",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvM",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "data",
-            "printedName": "data",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:token:type:data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AddAccountParams",
-                "printedName": "AccountsSDK.AddAccountParams",
-                "usr": "s:11AccountsSDK16AddAccountParamsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:token:type:data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AddAccountParams",
-                "printedName": "AccountsSDK.AddAccountParams",
-                "usr": "s:11AccountsSDK16AddAccountParamsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AccountType",
-                "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK16AddAccountParamsV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV6encode2toys7Encoder_p_tKF",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AddAccountParams",
-                "printedName": "AccountsSDK.AddAccountParams",
-                "usr": "s:11AccountsSDK16AddAccountParamsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "AccountsSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11AccountsSDK16AddAccountParamsV",
-        "mangledName": "$s11AccountsSDK16AddAccountParamsV",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreSDK",
-        "printedName": "CoreSDK",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AccountsSdk",
-        "printedName": "AccountsSdk",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "configure",
-            "printedName": "configure(accessToken:debugMode:tokenRefreshCallback:loggingCallback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ASDKTokenRefreshCallback",
-                "printedName": "any AccountsSDK.ASDKTokenRefreshCallback",
-                "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any CoreSDK.LoggingCallback)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LoggingCallback",
-                    "printedName": "any CoreSDK.LoggingCallback",
-                    "usr": "s:7CoreSDK15LoggingCallbackP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09ASDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
-            "mangledName": "$s11AccountsSDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09ASDKTokenjK0_p04CoreB007LoggingK0_pSgtF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "configure",
-            "printedName": "configure(accessToken:tokenRefreshCallback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ASDKTokenRefreshCallback",
-                "printedName": "any AccountsSDK.ASDKTokenRefreshCallback",
-                "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09ASDKTokenhI0_ptF",
-            "mangledName": "$s11AccountsSDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09ASDKTokenhI0_ptF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getAccounts",
-            "printedName": "getAccounts(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[AccountsSDK.Account]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Account",
-                            "printedName": "AccountsSDK.Account",
-                            "usr": "s:11AccountsSDK7AccountC"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
-            "mangledName": "$s11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getPaymentGateways",
-            "printedName": "getPaymentGateways(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[AccountsSDK.PaymentGateway]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PaymentGateway",
-                            "printedName": "AccountsSDK.PaymentGateway",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
-            "mangledName": "$s11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAccount",
-            "printedName": "addAccount(stripeCardToken:name:type:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AccountType",
-                "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<AccountsSDK.Account, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<AccountsSDK.Account, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Account",
-                        "printedName": "AccountsSDK.Account",
-                        "usr": "s:11AccountsSDK7AccountC"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name4type10completionySSSg_AiA14PaymentGatewayC0E4TypeOys6ResultOyAA0E0Cs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name4type10completionySSSg_AiA14PaymentGatewayC0E4TypeOys6ResultOyAA0E0Cs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "renameAccounts",
-            "printedName": "renameAccounts(renameMap:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[AccountsSDK.Account]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Account",
-                            "printedName": "AccountsSDK.Account",
-                            "usr": "s:11AccountsSDK7AccountC"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getExistingPlaidToken",
-            "printedName": "getExistingPlaidToken(appId:accountId:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlaidLinkToken",
-                        "printedName": "AccountsSDK.PlaidLinkToken",
-                        "usr": "s:11AccountsSDK14PlaidLinkTokenV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getNewPlaidToken",
-            "printedName": "getNewPlaidToken(appId:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PlaidLinkToken",
-                        "printedName": "AccountsSDK.PlaidLinkToken",
-                        "usr": "s:11AccountsSDK14PlaidLinkTokenV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addPlaidAccount",
-            "printedName": "addPlaidAccount(publicToken:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[AccountsSDK.Account]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Account",
-                            "printedName": "AccountsSDK.Account",
-                            "usr": "s:11AccountsSDK7AccountC"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deactivateAccount",
-            "printedName": "deactivateAccount(accountId:name:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP17deactivateAccount9accountId4name10completionySS_SSys6ResultOySbs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP17deactivateAccount9accountId4name10completionySS_SSys6ResultOySbs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "reorderAccounts",
-            "printedName": "reorderAccounts(accountIds:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<[AccountsSDK.Account], any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[AccountsSDK.Account]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Account",
-                            "printedName": "AccountsSDK.Account",
-                            "usr": "s:11AccountsSDK7AccountC"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP6logoutyyF",
-            "mangledName": "$s11AccountsSDK0A3SdkP6logoutyyF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11AccountsSDK0A3SdkP",
-        "mangledName": "$s11AccountsSDK0A3SdkP",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DeleteFundingSourceRequest",
-        "printedName": "DeleteFundingSourceRequest",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvp",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvg",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvs",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4nameSSvM",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4nameSSvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "status",
-            "printedName": "status",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvp",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvg",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvs",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6statusSSvM",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6statusSSvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:status:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DeleteFundingSourceRequest",
-                "printedName": "AccountsSDK.DeleteFundingSourceRequest",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Status",
-                "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                "hasDefaultArg": true,
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4name6statusACSS_AC6StatusOtcfc",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4name6statusACSS_AC6StatusOtcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Status",
-            "printedName": "Status",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "active",
-                "printedName": "active",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.DeleteFundingSourceRequest.Status.Type) -> AccountsSDK.DeleteFundingSourceRequest.Status",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Status",
-                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Status",
-                            "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO6activeyA2EmF",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO6activeyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "inactive",
-                "printedName": "inactive",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.DeleteFundingSourceRequest.Status.Type) -> AccountsSDK.DeleteFundingSourceRequest.Status",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Status",
-                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Status",
-                            "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8inactiveyA2EmF",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8inactiveyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Status",
-                        "printedName": "AccountsSDK.DeleteFundingSourceRequest.Status",
-                        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueAESgSS_tcfc",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueAESgSS_tcfc",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvp",
-                "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvp",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvg",
-                    "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO8rawValueSSvg",
-                    "moduleName": "AccountsSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6StatusO",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6StatusO",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV6encode2toys7Encoder_p_tKF",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DeleteFundingSourceRequest",
-                "printedName": "AccountsSDK.DeleteFundingSourceRequest",
-                "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "AccountsSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11AccountsSDK26DeleteFundingSourceRequestV",
-        "mangledName": "$s11AccountsSDK26DeleteFundingSourceRequestV",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreSDK",
-        "printedName": "CoreSDK",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ASDKTokenRefreshCallback",
-        "printedName": "ASDKTokenRefreshCallback",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "refreshJWTs",
-            "printedName": "refreshJWTs(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(CoreSDK.JWTs) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "JWTs",
-                    "printedName": "CoreSDK.JWTs",
-                    "usr": "s:7CoreSDK4JWTsV"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
-            "mangledName": "$s11AccountsSDK24ASDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
-            "moduleName": "AccountsSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.ASDKTokenRefreshCallback>",
-            "sugared_genericSig": "<Self where Self : AccountsSDK.ASDKTokenRefreshCallback>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP",
-        "mangledName": "$s11AccountsSDK24ASDKTokenRefreshCallbackP",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
@@ -3541,36 +3081,38 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "AccountsSDK"
       },
       {
         "kind": "TypeDecl",
-        "name": "AccountsSdkProvider",
-        "printedName": "AccountsSdkProvider",
+        "name": "PlaidLinkToken",
+        "printedName": "PlaidLinkToken",
         "children": [
           {
             "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
+            "name": "linkToken",
+            "printedName": "linkToken",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AccountsSdk",
-                "printedName": "any AccountsSDK.AccountsSdk",
-                "usr": "s:11AccountsSDK0A3SdkP"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
-            "mangledName": "$s11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
+            "usr": "s:11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvp",
+            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvp",
             "moduleName": "AccountsSDK",
-            "static": true,
             "declAttributes": [
-              "HasInitialValue",
-              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -3584,33 +3126,209 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AccountsSdk",
-                    "printedName": "any AccountsSDK.AccountsSdk",
-                    "usr": "s:11AccountsSDK0A3SdkP"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
-                "mangledName": "$s11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
+                "usr": "s:11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvg",
+                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvg",
                 "moduleName": "AccountsSDK",
-                "static": true,
                 "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiration",
+            "printedName": "expiration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK14PlaidLinkTokenV10expirationSSSgvp",
+            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV10expirationSSSgvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK14PlaidLinkTokenV10expirationSSSgvg",
+                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV10expirationSSSgvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestId",
+            "printedName": "requestId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvp",
+            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvg",
+                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlaidLinkToken",
+                "printedName": "AccountsSDK.PlaidLinkToken",
+                "usr": "s:11AccountsSDK14PlaidLinkTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK14PlaidLinkTokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK14PlaidLinkTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "AccountsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:11AccountsSDK0A11SdkProviderC",
-        "mangledName": "$s11AccountsSDK0A11SdkProviderC",
+        "declKind": "Struct",
+        "usr": "s:11AccountsSDK14PlaidLinkTokenV",
+        "mangledName": "$s11AccountsSDK14PlaidLinkTokenV",
         "moduleName": "AccountsSDK",
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -3625,6 +3343,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -5123,30 +4855,217 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccountsSdkProvider",
+        "printedName": "AccountsSdkProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccountsSdk",
+                "printedName": "any AccountsSDK.AccountsSdk",
+                "usr": "s:11AccountsSDK0A3SdkP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
+            "mangledName": "$s11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
+            "moduleName": "AccountsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccountsSdk",
+                    "printedName": "any AccountsSDK.AccountsSdk",
+                    "usr": "s:11AccountsSDK0A3SdkP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
+                "mangledName": "$s11AccountsSDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
+                "moduleName": "AccountsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11AccountsSDK0A11SdkProviderC",
+        "mangledName": "$s11AccountsSDK0A11SdkProviderC",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
         "moduleName": "AccountsSDK"
       },
       {
         "kind": "TypeDecl",
-        "name": "PlaidFundingSource",
-        "printedName": "PlaidFundingSource",
+        "name": "ASDKTokenRefreshCallback",
+        "printedName": "ASDKTokenRefreshCallback",
         "children": [
           {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
+            "kind": "Function",
+            "name": "refreshJWTs",
+            "printedName": "refreshJWTs(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreSDK.JWTs) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JWTs",
+                    "printedName": "CoreSDK.JWTs",
+                    "usr": "s:7CoreSDK4JWTsV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
+            "mangledName": "$s11AccountsSDK24ASDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.ASDKTokenRefreshCallback>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.ASDKTokenRefreshCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11AccountsSDK24ASDKTokenRefreshCallbackP",
+        "mangledName": "$s11AccountsSDK24ASDKTokenRefreshCallbackP",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AddAccountParams",
+        "printedName": "AddAccountParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvp",
-            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvp",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvp",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvp",
             "moduleName": "AccountsSDK",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -5159,14 +5078,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvg",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvg",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvg",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvg",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5183,14 +5110,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvs",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvs",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvs",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvs",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5207,8 +5142,118 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV5tokenSSvM",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5tokenSSvM",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4nameSSSgvM",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4nameSSSgvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvp",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvg",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvs",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV5tokenSSSgvM",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV5tokenSSSgvM",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5228,8 +5273,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvp",
-            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvp",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvp",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvp",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "HasStorage",
@@ -5250,8 +5295,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvg",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvg",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvg",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvg",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5274,8 +5319,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvs",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvs",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvs",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvs",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -5292,8 +5337,118 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV4typeSSvM",
-                "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4typeSSvM",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4typeSSvM",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4typeSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AccountsSDK.GatewayMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GatewayMetadata",
+                    "printedName": "AccountsSDK.GatewayMetadata",
+                    "usr": "s:11AccountsSDK15GatewayMetadataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AccountsSDK.GatewayMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayMetadata",
+                        "printedName": "AccountsSDK.GatewayMetadata",
+                        "usr": "s:11AccountsSDK15GatewayMetadataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AccountsSDK.GatewayMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayMetadata",
+                        "printedName": "AccountsSDK.GatewayMetadata",
+                        "usr": "s:11AccountsSDK15GatewayMetadataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
+                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5303,13 +5458,41 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:type:)",
+            "printedName": "init(name:token:type:data:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PlaidFundingSource",
-                "printedName": "AccountsSDK.PlaidFundingSource",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV"
+                "name": "AddAccountParams",
+                "printedName": "AccountsSDK.AddAccountParams",
+                "usr": "s:11AccountsSDK16AddAccountParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -5319,15 +5502,91 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "AccountsSDK.GatewayMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GatewayMetadata",
+                    "printedName": "AccountsSDK.GatewayMetadata",
+                    "usr": "s:11AccountsSDK15GatewayMetadataC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK18PlaidFundingSourceV5token4typeACSS_SStcfc",
-            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV5token4typeACSS_SStcfc",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:token:type:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AddAccountParams",
+                "printedName": "AccountsSDK.AddAccountParams",
+                "usr": "s:11AccountsSDK16AddAccountParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccountType",
+                "printedName": "AccountsSDK.PaymentGateway.AccountType",
+                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AccountsSDK.GatewayMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GatewayMetadata",
+                    "printedName": "AccountsSDK.GatewayMetadata",
+                    "usr": "s:11AccountsSDK15GatewayMetadataC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -5352,8 +5611,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK18PlaidFundingSourceV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV6encode2toys7Encoder_p_tKF",
+            "usr": "s:11AccountsSDK16AddAccountParamsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV6encode2toys7Encoder_p_tKF",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -5368,9 +5627,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PlaidFundingSource",
-                "printedName": "AccountsSDK.PlaidFundingSource",
-                "usr": "s:11AccountsSDK18PlaidFundingSourceV"
+                "name": "AddAccountParams",
+                "printedName": "AccountsSDK.AddAccountParams",
+                "usr": "s:11AccountsSDK16AddAccountParamsV"
               },
               {
                 "kind": "TypeNominal",
@@ -5380,8 +5639,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK18PlaidFundingSourceV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11AccountsSDK18PlaidFundingSourceV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4fromACs7Decoder_p_tKcfc",
             "moduleName": "AccountsSDK",
             "implicit": true,
             "throwing": true,
@@ -5389,8 +5648,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:11AccountsSDK18PlaidFundingSourceV",
-        "mangledName": "$s11AccountsSDK18PlaidFundingSourceV",
+        "usr": "s:11AccountsSDK16AddAccountParamsV",
+        "mangledName": "$s11AccountsSDK16AddAccountParamsV",
         "moduleName": "AccountsSDK",
         "declAttributes": [
           "AccessControl"
@@ -5431,296 +5690,15 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PlaidLinkToken",
-        "printedName": "PlaidLinkToken",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "linkToken",
-            "printedName": "linkToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvp",
-            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvg",
-                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV04linkE0SSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "expiration",
-            "printedName": "expiration",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK14PlaidLinkTokenV10expirationSSSgvp",
-            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV10expirationSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PlaidLinkTokenV10expirationSSSgvg",
-                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV10expirationSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "requestId",
-            "printedName": "requestId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvp",
-            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvg",
-                "mangledName": "$s11AccountsSDK14PlaidLinkTokenV9requestIdSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PlaidLinkToken",
-                "printedName": "AccountsSDK.PlaidLinkToken",
-                "usr": "s:11AccountsSDK14PlaidLinkTokenV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK14PlaidLinkTokenV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK14PlaidLinkTokenV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s11AccountsSDK14PlaidLinkTokenV6encode2toys7Encoder_p_tKF",
-            "moduleName": "AccountsSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11AccountsSDK14PlaidLinkTokenV",
-        "mangledName": "$s11AccountsSDK14PlaidLinkTokenV",
         "moduleName": "AccountsSDK",
         "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
+          "RawDocComment"
         ]
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AccountsSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
         "declKind": "Import",
         "moduleName": "AccountsSDK"
       },
@@ -5735,6 +5713,69 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 21,
+      "value": "\"funding_source_uuid\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkTokenRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 12,
+      "value": "\"ios_app_id\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 14,
+      "value": "\"bank_account\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 10,
+      "value": "\"inactive\""
+    },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
@@ -5785,32 +5826,25 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
       "kind": "StringLiteral",
-      "offset": 343,
-      "length": 6,
-      "value": "\"name\""
+      "offset": 238,
+      "length": 12,
+      "value": "\"link_token\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
       "kind": "StringLiteral",
-      "offset": 372,
-      "length": 8,
-      "value": "\"status\""
+      "offset": 277,
+      "length": 12,
+      "value": "\"expiration\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
       "kind": "StringLiteral",
-      "offset": 447,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/DeleteFundingSourceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 10,
-      "value": "\"inactive\""
+      "offset": 315,
+      "length": 12,
+      "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
@@ -5874,62 +5908,6 @@
       "offset": 2269,
       "length": 11,
       "value": "\"tandc_url\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
-      "kind": "StringLiteral",
-      "offset": 171,
-      "length": 14,
-      "value": "\"bank_account\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
-      "kind": "StringLiteral",
-      "offset": 328,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
-      "length": 12,
-      "value": "\"link_token\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 12,
-      "value": "\"expiration\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkToken.swift",
-      "kind": "StringLiteral",
-      "offset": 315,
-      "length": 12,
-      "value": "\"request_id\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkTokenRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 21,
-      "value": "\"funding_source_uuid\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidLinkTokenRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 423,
-      "length": 12,
-      "value": "\"ios_app_id\""
     }
   ]
 }

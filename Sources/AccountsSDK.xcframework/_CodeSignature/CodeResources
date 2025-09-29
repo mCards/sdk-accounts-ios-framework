@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/AccountsSDK.framework/AccountsSDK</key>
 		<data>
-		973rAk+CFz7ULXJKCb849oRxDYc=
+		4vQ5o7zTYt19v2ijja6BjoCnlsg=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Headers/AccountsSDK.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Info.plist</key>
 		<data>
-		vS2S6SAKvDuxSV0sTbkDcW+j2Ik=
+		+emCCKSeiW36NUv58f3xShHNnsE=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9aEOo1bfoUgHHwFDoMhIl9rYyw8=
+		l21qSyOQLaodMrjfZayoPgGsAT8=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8JtzPeA7b88mNwM8Ehlkzcpc6SM=
+		sjBnOr8BzoVfogjd+euEhH7s9iw=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5QcEzz0mmYehIQfDEdcr60lssS0=
+		HJjx2Yxu6ql+0UDvVcaYcUzCmW4=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8JtzPeA7b88mNwM8Ehlkzcpc6SM=
+		sjBnOr8BzoVfogjd+euEhH7s9iw=
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64/AccountsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		D0Zxm0+aJdu7zFgdY/5rgZwtdxQ=
+		S8mBZagxSE5uoMmDurA0cKeQCa4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/AccountsSDK</key>
 		<data>
-		v5JC+kT4/dv8j6ZWtxCbvaZV4xo=
+		Yl5V33h9JYwlVjM1N7FC3ebNJow=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Headers/AccountsSDK.h</key>
 		<data>
@@ -50,39 +50,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Info.plist</key>
 		<data>
-		UWxmNLhCH9hNKQUJtJQN9o4LV0A=
+		xpCFN7k94VuS2kIrYlB3F0KCQGE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9aEOo1bfoUgHHwFDoMhIl9rYyw8=
+		4BodVEGB1mnJxsnr0hQwyGpc3DE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+0n0Xt7kQzdtqEEy82XpAQTUhg8=
+		+xRI3z15l8hoKQdN9/UnWBNxLs8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FzTES97li61cnTzIKa0Zix+EIVo=
+		uUnBbO/dIpPbvM73Mefah5kEotY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+0n0Xt7kQzdtqEEy82XpAQTUhg8=
+		+xRI3z15l8hoKQdN9/UnWBNxLs8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9aEOo1bfoUgHHwFDoMhIl9rYyw8=
+		4BodVEGB1mnJxsnr0hQwyGpc3DE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		G9+8a/gjPhbco3lTZnYxJRXr56k=
+		jEG+ln9j4NIufWjSCRWRrPOCEhk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZOxQ8EPIY/Hxh7yLWlA3LC4qDM4=
+		bD1glOnSBF1yhYTD7njjBEnYQqM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		G9+8a/gjPhbco3lTZnYxJRXr56k=
+		jEG+ln9j4NIufWjSCRWRrPOCEhk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -90,28 +90,20 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		oNEkIbkTlPw5GQDVIf/H8CQffHA=
+		kFzKFtTaeRxajQz0ISL5qw+bk/Y=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>ios-arm64/AccountsSDK.framework/AccountsSDK</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			973rAk+CFz7ULXJKCb849oRxDYc=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ke0kNrxTohAXPLsZUrP9nauDiXZqvT1mf4HHwo+olnE=
+			tZjo6PsY8K2qPFf7cU7gD+37Xe0pY0EcIDXiZ8u2HWg=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Headers/AccountsSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVeSXKW9hu+6V6z1iJZtXmqGPKQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			3SVw/0oA4OorpTRVg0ohoU/oY5uKOc/5IFryAW6uA5Q=
@@ -119,65 +111,41 @@
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vS2S6SAKvDuxSV0sTbkDcW+j2Ik=
-			</data>
 			<key>hash2</key>
 			<data>
-			7xDaODlFN3fbCGGPpbF6GNeQcy65IWbs+8SSMtP+sfE=
+			i7o++Ev2M/CJKI+vGZL1ceN1v9OUTwpQgbwVqI1IGWY=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9aEOo1bfoUgHHwFDoMhIl9rYyw8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Eec4aIpT8aLQ8adyzB4ek85U9rqhU4ORLE1PRuxdE9Y=
+			kdvZZHGKGEggxka4NK3z39Mj1Am8EA3N2mFfaRhPBJo=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8JtzPeA7b88mNwM8Ehlkzcpc6SM=
-			</data>
 			<key>hash2</key>
 			<data>
-			vW39hNxhb84uFwt7Q0ydbc2xDwLc2kXXraIoo2NS/zw=
+			+lE3iFMamc8+eWj4AQ44Nli7NnFCEkq440fy6b4Vncc=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5QcEzz0mmYehIQfDEdcr60lssS0=
-			</data>
 			<key>hash2</key>
 			<data>
-			xwVRTs4J09aunxSTTYFDJhHiCnj6RGp3/UmgMKpzKms=
+			7axWtjzDQ6EcjuzBLZ0CykSR0XptUVaZ96Gd0sZq0CA=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8JtzPeA7b88mNwM8Ehlkzcpc6SM=
-			</data>
 			<key>hash2</key>
 			<data>
-			vW39hNxhb84uFwt7Q0ydbc2xDwLc2kXXraIoo2NS/zw=
+			+lE3iFMamc8+eWj4AQ44Nli7NnFCEkq440fy6b4Vncc=
 			</data>
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GCtGrzGfk0Agubjyzr+bAIKOJ+w=
-			</data>
 			<key>hash2</key>
 			<data>
 			4oXiMTKmqw/jz0v3raw6DcZ4fMpYVS5gjKOPIcMq9Pc=
@@ -185,32 +153,20 @@
 		</dict>
 		<key>ios-arm64/AccountsSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D0Zxm0+aJdu7zFgdY/5rgZwtdxQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			GsLEwbvOQRmfACMrfDNYy7xqPCGPnP09hNRGNZhIG2g=
+			Ys3hk2rQa8CaNi0ZlEjbXl4g7Ha9lEpbO83UtogSqsI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/AccountsSDK</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v5JC+kT4/dv8j6ZWtxCbvaZV4xo=
-			</data>
 			<key>hash2</key>
 			<data>
-			hBUzPL1x5SXDf1cHLBASheVVjXQHpT2+1z9XJimdbtE=
+			vYI+BM7ntFyGNXkz1zX7MgrW2kEqgwlyZn8hozZiZ0E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Headers/AccountsSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVeSXKW9hu+6V6z1iJZtXmqGPKQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			3SVw/0oA4OorpTRVg0ohoU/oY5uKOc/5IFryAW6uA5Q=
@@ -218,109 +174,69 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UWxmNLhCH9hNKQUJtJQN9o4LV0A=
-			</data>
 			<key>hash2</key>
 			<data>
-			pfnfgPhJ4HfKusupRuFicv5mg+8FmTUUheZtOqeKgfQ=
+			fY+nTI3a/JH/4B3SWv6Riw8t5aBozuGdvxWvhf9oTCU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9aEOo1bfoUgHHwFDoMhIl9rYyw8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Eec4aIpT8aLQ8adyzB4ek85U9rqhU4ORLE1PRuxdE9Y=
+			n3jRk3PP2JPk+hDjHmqrrsO8y9a5xLqqxnukIA0aHsY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+0n0Xt7kQzdtqEEy82XpAQTUhg8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Fy6O9pmGEqjFccwzbvdtSsZPXu/+DBWCXFiMikHxZ3M=
+			6PDrkWKciZifvQYojwBySIpLfn9N+DR+x/pVds0ohd0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FzTES97li61cnTzIKa0Zix+EIVo=
-			</data>
 			<key>hash2</key>
 			<data>
-			b2B0CYzXpXE8zpNzG3eecQwX5dBvEkMT9gbRfkiyuDo=
+			d0tKaXtffvCxDKg75vs/yk67y9R94bEsodOhITyiL/k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+0n0Xt7kQzdtqEEy82XpAQTUhg8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Fy6O9pmGEqjFccwzbvdtSsZPXu/+DBWCXFiMikHxZ3M=
+			6PDrkWKciZifvQYojwBySIpLfn9N+DR+x/pVds0ohd0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9aEOo1bfoUgHHwFDoMhIl9rYyw8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Eec4aIpT8aLQ8adyzB4ek85U9rqhU4ORLE1PRuxdE9Y=
+			n3jRk3PP2JPk+hDjHmqrrsO8y9a5xLqqxnukIA0aHsY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G9+8a/gjPhbco3lTZnYxJRXr56k=
-			</data>
 			<key>hash2</key>
 			<data>
-			Hbh0eqZkj9NlwXRSlWHQ2ycGfWIudBm6T1ejh1rAibw=
+			FNDbkRhKxvr4xDeyd8s8E5eSUXTeHJ40QEkY1XDJmew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZOxQ8EPIY/Hxh7yLWlA3LC4qDM4=
-			</data>
 			<key>hash2</key>
 			<data>
-			rNC8vMbgfE7rKh1XtkuvQWPO8b/ocjUhEQpRnPPUnII=
+			vv1ji9Rdqx88ns2v1Q+WiQ8L2985UEYPzrZwDu3puiQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G9+8a/gjPhbco3lTZnYxJRXr56k=
-			</data>
 			<key>hash2</key>
 			<data>
-			Hbh0eqZkj9NlwXRSlWHQ2ycGfWIudBm6T1ejh1rAibw=
+			FNDbkRhKxvr4xDeyd8s8E5eSUXTeHJ40QEkY1XDJmew=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GCtGrzGfk0Agubjyzr+bAIKOJ+w=
-			</data>
 			<key>hash2</key>
 			<data>
 			4oXiMTKmqw/jz0v3raw6DcZ4fMpYVS5gjKOPIcMq9Pc=
@@ -328,13 +244,9 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AccountsSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oNEkIbkTlPw5GQDVIf/H8CQffHA=
-			</data>
 			<key>hash2</key>
 			<data>
-			CFAQJ31JOIQ9qx7IW4o26SYyUukxoUGFW1HAH7TaFak=
+			O6GFCQmtEtfiz+QI6M751qkpaRVRr9d3VScvi7dHd4s=
 			</data>
 		</dict>
 	</dict>
