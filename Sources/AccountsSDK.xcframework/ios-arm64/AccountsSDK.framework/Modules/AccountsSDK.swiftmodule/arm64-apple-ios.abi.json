@@ -1729,119 +1729,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "data",
-            "printedName": "data",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
-                "mangledName": "$s11AccountsSDK16AddAccountParamsV4dataAA15GatewayMetadataCSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:token:type:data:)",
+            "printedName": "init(name:token:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1882,25 +1772,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AHSSAA15GatewayMetadataCSgtcfc",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4typeACSSSg_AGSStcfc",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4typeACSSSg_AGSStcfc",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -1910,7 +1786,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:token:type:data:)",
+            "printedName": "init(name:token:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1948,28 +1824,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AccountType",
-                "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "GatewayType",
+                "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
-            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4type4dataACSSSg_AhA14PaymentGatewayC0D4TypeOAA0K8MetadataCSgtcfc",
+            "usr": "s:11AccountsSDK16AddAccountParamsV4name5token4typeACSSSg_AgA14PaymentGatewayC0J4TypeOtcfc",
+            "mangledName": "$s11AccountsSDK16AddAccountParamsV4name5token4typeACSSSg_AgA14PaymentGatewayC0J4TypeOtcfc",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -2066,6 +1928,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AccountsSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2650,497 +2522,6 @@
         "printedName": "PaymentGateway",
         "children": [
           {
-            "kind": "TypeDecl",
-            "name": "AccountType",
-            "printedName": "AccountType",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "paymentCard",
-                "printedName": "paymentCard",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.PaymentGateway.AccountType.Type) -> AccountsSDK.PaymentGateway.AccountType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AccountType",
-                            "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO11paymentCardyA2EmF",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO11paymentCardyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "bankAccount",
-                "printedName": "bankAccount",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.PaymentGateway.AccountType.Type) -> AccountsSDK.PaymentGateway.AccountType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AccountType",
-                            "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO04bankE0yA2EmF",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO04bankE0yA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "bnpl",
-                "printedName": "bnpl",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.PaymentGateway.AccountType.Type) -> AccountsSDK.PaymentGateway.AccountType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AccountType",
-                            "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO4bnplyA2EmF",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO4bnplyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.AccountType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueAESgSS_tcfc",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueAESgSS_tcfc",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueSSvp",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueSSvp",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueSSvg",
-                    "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO8rawValueSSvg",
-                    "moduleName": "AccountsSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC11AccountTypeO",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Encodable",
-                "printedName": "Encodable",
-                "usr": "s:SE",
-                "mangledName": "$sSE"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "PaymentGatewayType",
-            "printedName": "PaymentGatewayType",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "stripe",
-                "printedName": "stripe",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.PaymentGateway.PaymentGatewayType.Type) -> AccountsSDK.PaymentGateway.PaymentGatewayType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentGatewayType",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PaymentGatewayType",
-                            "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO6stripeyA2EmF",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO6stripeyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Var",
-                "name": "plaid",
-                "printedName": "plaid",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AccountsSDK.PaymentGateway.PaymentGatewayType.Type) -> AccountsSDK.PaymentGateway.PaymentGatewayType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentGatewayType",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PaymentGatewayType",
-                            "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                            "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO5plaidyA2EmF",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO5plaidyA2EmF",
-                "moduleName": "AccountsSDK"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaymentGatewayType",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueAESgSS_tcfc",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueAESgSS_tcfc",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueSSvp",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueSSvp",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueSSvg",
-                    "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO8rawValueSSvg",
-                    "moduleName": "AccountsSDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC0cD4TypeO",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Encodable",
-                "printedName": "Encodable",
-                "usr": "s:SE",
-                "mangledName": "$sSE"
-              }
-            ]
-          },
-          {
             "kind": "Var",
             "name": "type",
             "printedName": "type",
@@ -3148,21 +2529,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AccountsSDK.PaymentGateway.AccountType?",
+                "printedName": "AccountsSDK.PaymentGateway.GatewayType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AccountType",
-                    "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
+                    "name": "GatewayType",
+                    "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                    "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvp",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvp",
+            "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvp",
+            "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvp",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -3179,21 +2560,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.AccountType?",
+                    "printedName": "AccountsSDK.PaymentGateway.GatewayType?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvg",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvg",
+                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvg",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvg",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3211,21 +2592,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.AccountType?",
+                    "printedName": "AccountsSDK.PaymentGateway.GatewayType?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "AccountType",
-                        "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvs",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvs",
+                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvs",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvs",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3242,8 +2623,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvM",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC11AccountTypeOSgvM",
+                "usr": "s:11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvM",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC4typeAC0D4TypeOSgvM",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3252,32 +2633,33 @@
           },
           {
             "kind": "Var",
-            "name": "paymentGatewayType",
-            "printedName": "paymentGatewayType",
+            "name": "onboardingUrl",
+            "printedName": "onboardingUrl",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentGatewayType",
-                    "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvp",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvp",
+            "usr": "s:11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvp",
+            "mangledName": "$s11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvp",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3289,21 +2671,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentGatewayType",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvg",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvg",
+                "usr": "s:11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvg",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvg",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3321,21 +2703,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PaymentGatewayType",
-                        "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                        "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvs",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvs",
+                "usr": "s:11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvs",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvs",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3352,118 +2734,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvM",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC07paymentD4TypeAC0cdF0OSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "metaData",
-            "printedName": "metaData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvp",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvg",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AccountsSDK.GatewayMetadata?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GatewayMetadata",
-                        "printedName": "AccountsSDK.GatewayMetadata",
-                        "usr": "s:11AccountsSDK15GatewayMetadataC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvs",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvM",
-                "mangledName": "$s11AccountsSDK14PaymentGatewayC8metaDataAA0D8MetadataCSgvM",
+                "usr": "s:11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvM",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC13onboardingUrlSSSgvM",
                 "moduleName": "AccountsSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3473,7 +2745,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:paymentGatewayType:metadata:)",
+            "printedName": "init(type:onboardingUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3484,13 +2756,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AccountsSDK.PaymentGateway.AccountType?",
+                "printedName": "AccountsSDK.PaymentGateway.GatewayType?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AccountType",
-                    "printedName": "AccountsSDK.PaymentGateway.AccountType",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC11AccountTypeO"
+                    "name": "GatewayType",
+                    "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                    "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -3499,28 +2771,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PaymentGatewayType",
-                    "printedName": "AccountsSDK.PaymentGateway.PaymentGatewayType",
-                    "usr": "s:11AccountsSDK14PaymentGatewayC0cD4TypeO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AccountsSDK.GatewayMetadata?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GatewayMetadata",
-                    "printedName": "AccountsSDK.GatewayMetadata",
-                    "usr": "s:11AccountsSDK15GatewayMetadataC"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -3528,8 +2785,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK14PaymentGatewayC4type07paymentD4Type8metadataA2C07AccountG0OSg_AC0cdG0OSgAA0D8MetadataCSgtcfc",
-            "mangledName": "$s11AccountsSDK14PaymentGatewayC4type07paymentD4Type8metadataA2C07AccountG0OSg_AC0cdG0OSgAA0D8MetadataCSgtcfc",
+            "usr": "s:11AccountsSDK14PaymentGatewayC4type13onboardingUrlA2C0D4TypeOSg_SSSgtcfc",
+            "mangledName": "$s11AccountsSDK14PaymentGatewayC4type13onboardingUrlA2C0D4TypeOSg_SSSgtcfc",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -3591,507 +2848,497 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "GatewayType",
+            "printedName": "GatewayType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "paymentCard",
+                "printedName": "paymentCard",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO11paymentCardyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO11paymentCardyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "bankAccount",
+                "printedName": "bankAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO11bankAccountyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO11bankAccountyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "bnpl",
+                "printedName": "bnpl",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO4bnplyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO4bnplyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "heloc",
+                "printedName": "heloc",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO5helocyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO5helocyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "hsa",
+                "printedName": "hsa",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO3hsayA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO3hsayA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "rewards",
+                "printedName": "rewards",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO7rewardsyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO7rewardsyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "gifts",
+                "printedName": "gifts",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO5giftsyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO5giftsyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "crypto",
+                "printedName": "crypto",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO6cryptoyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO6cryptoyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "roundup",
+                "printedName": "roundup",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AccountsSDK.PaymentGateway.GatewayType.Type) -> AccountsSDK.PaymentGateway.GatewayType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GatewayType",
+                            "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO7roundupyA2EmF",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO7roundupyA2EmF",
+                "moduleName": "AccountsSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AccountsSDK.PaymentGateway.GatewayType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GatewayType",
+                        "printedName": "AccountsSDK.PaymentGateway.GatewayType",
+                        "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueAESgSS_tcfc",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueSSvp",
+                "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueSSvp",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueSSvg",
+                    "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO8rawValueSSvg",
+                    "moduleName": "AccountsSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11AccountsSDK14PaymentGatewayC0D4TypeO",
+            "mangledName": "$s11AccountsSDK14PaymentGatewayC0D4TypeO",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
           }
         ],
         "declKind": "Class",
         "usr": "s:11AccountsSDK14PaymentGatewayC",
         "mangledName": "$s11AccountsSDK14PaymentGatewayC",
-        "moduleName": "AccountsSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "GatewayMetadata",
-        "printedName": "GatewayMetadata",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "totalAmount",
-            "printedName": "totalAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK15GatewayMetadataC11totalAmountSdSgvp",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC11totalAmountSdSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC11totalAmountSdSgvg",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC11totalAmountSdSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC11totalAmountSdSgvs",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC11totalAmountSdSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC11totalAmountSdSgvM",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC11totalAmountSdSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "formattedTotalAmount",
-            "printedName": "formattedTotalAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvp",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvg",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvs",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvM",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC20formattedTotalAmountSSSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "tandcUrl",
-            "printedName": "tandcUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvp",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvp",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvg",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvg",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvs",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvs",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvM",
-                "mangledName": "$s11AccountsSDK15GatewayMetadataC8tandcUrlSSSgvM",
-                "moduleName": "AccountsSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(totalAmount:formattedTotalAmount:tandcUrl:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GatewayMetadata",
-                "printedName": "AccountsSDK.GatewayMetadata",
-                "usr": "s:11AccountsSDK15GatewayMetadataC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK15GatewayMetadataC11totalAmount014formattedTotalF08tandcUrlACSdSg_SSSgAHtcfc",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC11totalAmount014formattedTotalF08tandcUrlACSdSg_SSSgAHtcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GatewayMetadata",
-                "printedName": "AccountsSDK.GatewayMetadata",
-                "usr": "s:11AccountsSDK15GatewayMetadataC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11AccountsSDK15GatewayMetadataC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11AccountsSDK15GatewayMetadataC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s11AccountsSDK15GatewayMetadataC6encode2toys7Encoder_p_tKF",
-            "moduleName": "AccountsSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11AccountsSDK15GatewayMetadataC",
-        "mangledName": "$s11AccountsSDK15GatewayMetadataC",
         "moduleName": "AccountsSDK",
         "declAttributes": [
           "AccessControl"
@@ -4875,12 +4122,18 @@
           {
             "kind": "Function",
             "name": "getAccounts",
-            "printedName": "getAccounts(completion:)",
+            "printedName": "getAccounts(cardId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -4924,8 +4177,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
-            "mangledName": "$s11AccountsSDK0A3SdkP03getA010completionyys6ResultOySayAA7AccountCGs5Error_pGc_tF",
+            "usr": "s:11AccountsSDK0A3SdkP03getA06cardId10completionySS_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP03getA06cardId10completionySS_ys6ResultOySayAA7AccountCGs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -4939,12 +4192,18 @@
           {
             "kind": "Function",
             "name": "getPaymentGateways",
-            "printedName": "getPaymentGateways(completion:)",
+            "printedName": "getPaymentGateways(cardId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
@@ -4988,8 +4247,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
-            "mangledName": "$s11AccountsSDK0A3SdkP18getPaymentGateways10completionyys6ResultOySayAA0E7GatewayCGs5Error_pGc_tF",
+            "usr": "s:11AccountsSDK0A3SdkP18getPaymentGateways6cardId10completionySS_ys6ResultOySayAA0E7GatewayCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP18getPaymentGateways6cardId10completionySS_ys6ResultOySayAA0E7GatewayCGs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5002,13 +4261,81 @@
           },
           {
             "kind": "Function",
-            "name": "addAccount",
-            "printedName": "addAccount(stripeCardToken:name:completion:)",
+            "name": "getAddAccountToken",
+            "printedName": "getAddAccountToken(cardId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11AccountsSDK0A3SdkP18getAddAccountToken6cardId10completionySS_ys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP18getAddAccountToken6cardId10completionySS_ys6ResultOySSs5Error_pGctF",
+            "moduleName": "AccountsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
+            "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addStripeAccount",
+            "printedName": "addStripeAccount(cardId:stripeCardToken:name:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5056,8 +4383,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name10completionySS_SSys6ResultOyAA0E0Cs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP10addAccount15stripeCardToken4name10completionySS_SSys6ResultOyAA0E0Cs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP16addStripeAccount6cardId15stripeCardToken4name10completionySS_S2Sys6ResultOyAA0F0Cs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP16addStripeAccount6cardId15stripeCardToken4name10completionySS_S2Sys6ResultOyAA0F0Cs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5071,12 +4398,18 @@
           {
             "kind": "Function",
             "name": "renameAccounts",
-            "printedName": "renameAccounts(renameMap:completion:)",
+            "printedName": "renameAccounts(cardId:renameMap:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5140,8 +4473,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP06renameA00D3Map10completionySDyS2SG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP06renameA06cardId0D3Map10completionySS_SDyS2SGys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP06renameA06cardId0D3Map10completionySS_SDyS2SGys6ResultOySayAA7AccountCGs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5155,12 +4488,18 @@
           {
             "kind": "Function",
             "name": "getExistingPlaidToken",
-            "printedName": "getExistingPlaidToken(appId:accountId:completion:)",
+            "printedName": "getExistingPlaidToken(cardId:appId:accountId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5208,8 +4547,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP21getExistingPlaidToken5appId07accountI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP21getExistingPlaidToken6cardId03appI007accountI010completionySS_S2Sys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP21getExistingPlaidToken6cardId03appI007accountI010completionySS_S2Sys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5223,12 +4562,18 @@
           {
             "kind": "Function",
             "name": "getNewPlaidToken",
-            "printedName": "getNewPlaidToken(appId:completion:)",
+            "printedName": "getNewPlaidToken(cardId:appId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5270,8 +4615,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP16getNewPlaidToken5appId10completionySS_ys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP16getNewPlaidToken6cardId03appI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP16getNewPlaidToken6cardId03appI010completionySS_SSys6ResultOyAA0f4LinkG0Vs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5285,12 +4630,18 @@
           {
             "kind": "Function",
             "name": "addPlaidAccount",
-            "printedName": "addPlaidAccount(publicToken:completion:)",
+            "printedName": "addPlaidAccount(cardId:publicToken:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5340,8 +4691,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP15addPlaidAccount11publicToken10completionySS_ys6ResultOySayAA0F0CGs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP15addPlaidAccount6cardId11publicToken10completionySS_SSys6ResultOySayAA0F0CGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP15addPlaidAccount6cardId11publicToken10completionySS_SSys6ResultOySayAA0F0CGs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5417,12 +4768,18 @@
           {
             "kind": "Function",
             "name": "reorderAccounts",
-            "printedName": "reorderAccounts(accountIds:completion:)",
+            "printedName": "reorderAccounts(cardId:accountIds:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5480,8 +4837,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
-            "mangledName": "$s11AccountsSDK0A3SdkP07reorderA010accountIds10completionySaySSG_ys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "usr": "s:11AccountsSDK0A3SdkP07reorderA06cardId10accountIds10completionySS_SaySSGys6ResultOySayAA7AccountCGs5Error_pGctF",
+            "mangledName": "$s11AccountsSDK0A3SdkP07reorderA06cardId10accountIds10completionySS_SaySSGys6ResultOySayAA7AccountCGs5Error_pGctF",
             "moduleName": "AccountsSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : AccountsSDK.AccountsSdk>",
             "sugared_genericSig": "<Self where Self : AccountsSDK.AccountsSdk>",
@@ -5821,65 +5178,72 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
       "kind": "StringLiteral",
-      "offset": 137,
+      "offset": 792,
+      "length": 16,
+      "value": "\"onboarding_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
       "length": 14,
       "value": "\"payment_card\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
       "kind": "StringLiteral",
-      "offset": 179,
+      "offset": 1513,
       "length": 14,
       "value": "\"bank_account\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
       "kind": "StringLiteral",
-      "offset": 214,
+      "offset": 1548,
       "length": 6,
       "value": "\"bnpl\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 1576,
+      "length": 7,
+      "value": "\"heloc\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 5,
+      "value": "\"hsa\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 9,
+      "value": "\"rewards\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1663,
+      "length": 7,
+      "value": "\"gifts\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
       "length": 8,
-      "value": "\"stripe\""
+      "value": "\"crypto\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
       "kind": "StringLiteral",
-      "offset": 338,
-      "length": 15,
-      "value": "\"plaid_gateway\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 22,
-      "value": "\"payment_gateway_type\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
-      "kind": "StringLiteral",
-      "offset": 2169,
-      "length": 14,
-      "value": "\"total_amount\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
-      "kind": "StringLiteral",
-      "offset": 2220,
-      "length": 24,
-      "value": "\"formatted_total_amount\""
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PaymentGateway.swift",
-      "kind": "StringLiteral",
-      "offset": 2269,
-      "length": 11,
-      "value": "\"tandc_url\""
+      "offset": 1725,
+      "length": 9,
+      "value": "\"roundup\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/PlaidFundingSource.swift",

@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VS9zHeavjTyB8Y0Xeuq7m95YQok=
+		qD9EoPoziBbR9BBMxA5EyKAWaBw=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6hxfrNzL7zjsN5Sd+ZgGkwL0erY=
+		pJ0y5hMTcFyYz7VeHUxOX5i3NlI=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/FgsmLBCgvoV6SQgwOLr2141GWI=
+		fLL2VS6k7BjJAZ+LmdBGEFmINg4=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vXbZDoCSd0OF/C60GvDEMkL5gb0=
+		uEyXNCGbsE4kN6mWPjja4OLXDxU=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/FgsmLBCgvoV6SQgwOLr2141GWI=
+		fLL2VS6k7BjJAZ+LmdBGEFmINg4=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NqS+5v6nodDd1afuIKEMGjR+o8w=
+		gFYMCtlDKmn6LHc16cIyPrt3hv4=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6hxfrNzL7zjsN5Sd+ZgGkwL0erY=
+		pJ0y5hMTcFyYz7VeHUxOX5i3NlI=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7/vic70PktV14iAlw02sqTc42SI=
+		xKivVP1uYjnxqpY8Z+Fv/1Zi8AQ=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		14eNqn9b3shFanpblAeZnNMKWOg=
+		DGwqwTnZ1OZiH3osB1ziaOhMSXM=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7/vic70PktV14iAlw02sqTc42SI=
+		xKivVP1uYjnxqpY8Z+Fv/1Zi8AQ=
 		</data>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xKeZHoNVOscW89CtkoX834e4wkE=
+		V1YSNAF4w4trwA4/aKp9jf81rt8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8TECuu7KcAFnbPXdxKLVI7BugbpqtIUwEDyGZCLYws=
+			HpGdaMiu9caviTj4pfshCyF9oRrgiDCB+ZBMswDi5Bw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HZBih5qzN8LOpXf8S+yqV4fCcf2yjoGxHXfed+6D434=
+			tWfP1UU+CitPCe9Y4+Pt7Zmz1SOjw/OYArWwO9v8vj4=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbTTyHH0zuyHZ3s0icowJQpo2LzCH7wghX5gEaMEnA8=
+			5uc9JjdtdId5ZxRn03LQTuuMK3oyuPo/015ut1d9/Bw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HZBih5qzN8LOpXf8S+yqV4fCcf2yjoGxHXfed+6D434=
+			tWfP1UU+CitPCe9Y4+Pt7Zmz1SOjw/OYArWwO9v8vj4=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UymjdFelTOgpR7cMW75BQjerZSj6SfuP2FBLIZp2tfk=
+			SGWDd844+I4/RfEm2utLWYgmD4jvN/+E0XrD/7tmXtA=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8TECuu7KcAFnbPXdxKLVI7BugbpqtIUwEDyGZCLYws=
+			HpGdaMiu9caviTj4pfshCyF9oRrgiDCB+ZBMswDi5Bw=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wsXZoKvX0SDk0hL+PAnJq7z5tSMnKmWwsCcZCuvfLn0=
+			GyjWw0+zFyCCn2tluxNENyDn65aj0TnAtaA9A6OktO8=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qpW5NqDj/DDZywdxhdpPD4M5WFSmXya3TMmlhbcZ8BI=
+			chqXH38g5rgEcqxzJVLHllkCtfyQnA2QMCczVTntfp8=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wsXZoKvX0SDk0hL+PAnJq7z5tSMnKmWwsCcZCuvfLn0=
+			GyjWw0+zFyCCn2tluxNENyDn65aj0TnAtaA9A6OktO8=
 			</data>
 		</dict>
 		<key>Modules/AccountsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H0WeczlXaGZ2Bgj2q9K9o1vEoD/jM8MiXId1u4fN3PU=
+			2AuHjZVMZzpuyobHv8TTlbnfeDYsVvK8dF72SZDkXEI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
