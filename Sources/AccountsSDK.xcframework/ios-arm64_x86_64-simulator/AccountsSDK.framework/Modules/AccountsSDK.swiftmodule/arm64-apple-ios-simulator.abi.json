@@ -117,9 +117,11 @@
             "usr": "s:11AccountsSDK7AccountC5last4SSvp",
             "mangledName": "$s11AccountsSDK7AccountC5last4SSvp",
             "moduleName": "AccountsSDK",
+            "deprecated": true,
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "hasStorage": true,
             "accessors": [
@@ -181,7 +183,11 @@
                 "usr": "s:11AccountsSDK7AccountC5last4SSvM",
                 "mangledName": "$s11AccountsSDK7AccountC5last4SSvM",
                 "moduleName": "AccountsSDK",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -772,9 +778,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "subtitle",
+            "printedName": "subtitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AccountsSDK7AccountC8subtitleSSvp",
+            "mangledName": "$s11AccountsSDK7AccountC8subtitleSSvp",
+            "moduleName": "AccountsSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK7AccountC8subtitleSSvg",
+                "mangledName": "$s11AccountsSDK7AccountC8subtitleSSvg",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK7AccountC8subtitleSSvs",
+                "mangledName": "$s11AccountsSDK7AccountC8subtitleSSvs",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AccountsSDK7AccountC8subtitleSSvM",
+                "mangledName": "$s11AccountsSDK7AccountC8subtitleSSvM",
+                "moduleName": "AccountsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(brand:last4:status:uuid:name:iconUrl:displayType:balance:)",
+            "printedName": "init(brand:last4:status:uuid:name:iconUrl:displayType:balance:subtitle:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -861,11 +952,18 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11AccountsSDK7AccountC5brand5last46status4uuid4name7iconUrl11displayType7balanceACSS_SSAC12SourceStatusOS3SSgANSdSgtcfc",
-            "mangledName": "$s11AccountsSDK7AccountC5brand5last46status4uuid4name7iconUrl11displayType7balanceACSS_SSAC12SourceStatusOS3SSgANSdSgtcfc",
+            "usr": "s:11AccountsSDK7AccountC5brand5last46status4uuid4name7iconUrl11displayType7balance8subtitleACSS_SSAC12SourceStatusOS3SSgAOSdSgSStcfc",
+            "mangledName": "$s11AccountsSDK7AccountC5brand5last46status4uuid4name7iconUrl11displayType7balance8subtitleACSS_SSAC12SourceStatusOS3SSgAOSdSgSStcfc",
             "moduleName": "AccountsSDK",
             "declAttributes": [
               "AccessControl"
@@ -5101,49 +5199,56 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 444,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 472,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 446,
+      "offset": 537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 564,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 695,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 1070,
+      "offset": 1225,
       "length": 14,
       "value": "\"display_type\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/AccountsSDK\/Sources\/AccountsSDK\/Models\/Account.swift",
       "kind": "StringLiteral",
-      "offset": 3518,
+      "offset": 3902,
       "length": 2,
       "value": "\"\""
     },
