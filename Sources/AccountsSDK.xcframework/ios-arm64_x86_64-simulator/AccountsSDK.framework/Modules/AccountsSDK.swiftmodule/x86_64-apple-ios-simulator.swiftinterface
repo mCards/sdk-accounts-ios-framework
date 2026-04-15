@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AccountsSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 @_exported import AccountsSDK
 import CoreSDK
 import Foundation
@@ -12,6 +12,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public class Account : Swift.Equatable, Swift.Codable {
   public var brand: Swift.String
+  @available(*, deprecated, message: "Use subtitle instead")
   public var last4: Swift.String
   public var status: AccountsSDK.Account.SourceStatus
   public var uuid: Swift.String
@@ -19,8 +20,9 @@ public class Account : Swift.Equatable, Swift.Codable {
   public var iconUrl: Swift.String?
   public var displayType: Swift.String?
   public var balance: Swift.Double?
+  public var subtitle: Swift.String
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(brand: Swift.String = "", last4: Swift.String = "", status: AccountsSDK.Account.SourceStatus = .none, uuid: Swift.String = "", name: Swift.String = "", iconUrl: Swift.String? = nil, displayType: Swift.String? = nil, balance: Swift.Double? = nil)
+  public init(brand: Swift.String = "", last4: Swift.String = "", status: AccountsSDK.Account.SourceStatus = .none, uuid: Swift.String = "", name: Swift.String = "", iconUrl: Swift.String? = nil, displayType: Swift.String? = nil, balance: Swift.Double? = nil, subtitle: Swift.String = "")
   #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
