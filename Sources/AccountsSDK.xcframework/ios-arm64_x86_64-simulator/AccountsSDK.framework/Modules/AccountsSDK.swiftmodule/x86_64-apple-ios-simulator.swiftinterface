@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AccountsSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AccountsSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 @_exported import AccountsSDK
 import CoreSDK
 import Foundation
@@ -21,14 +21,10 @@ public class Account : Swift.Equatable, Swift.Codable {
   public var displayType: Swift.String?
   public var balance: Swift.Double?
   public var subtitle: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(brand: Swift.String = "", last4: Swift.String = "", status: AccountsSDK.Account.SourceStatus = .none, uuid: Swift.String = "", name: Swift.String = "", iconUrl: Swift.String? = nil, displayType: Swift.String? = nil, balance: Swift.Double? = nil, subtitle: Swift.String = "")
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   public func isEqual(to object: Any?) -> Swift.Bool
-  #endif
   public static func == (lhs: AccountsSDK.Account, rhs: AccountsSDK.Account) -> Swift.Bool
   public enum SourceStatus : Swift.String, Swift.Equatable, Swift.Codable {
     case inactive
@@ -37,9 +33,7 @@ public class Account : Swift.Equatable, Swift.Codable {
     case error
     case expired
     case none
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -51,27 +45,19 @@ public struct AddAccountParams : Swift.Codable {
   public var name: Swift.String?
   public var token: Swift.String?
   public var type: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String?, token: Swift.String?, type: Swift.String)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String?, token: Swift.String?, type: AccountsSDK.PaymentGateway.GatewayType)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct DeleteFundingSourceRequest : Swift.Codable {
   public var name: Swift.String?
   public var status: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(name: Swift.String? = nil, status: AccountsSDK.DeleteFundingSourceRequest.Status = .inactive)
-  #endif
   public enum Status : Swift.String {
     case active
     case inactive
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -83,9 +69,7 @@ public struct DeleteFundingSourceRequest : Swift.Codable {
 public class PaymentGateway : Swift.Codable {
   public var type: AccountsSDK.PaymentGateway.GatewayType?
   public var onboardingUrl: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: AccountsSDK.PaymentGateway.GatewayType? = nil, onboardingUrl: Swift.String? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   public enum GatewayType : Swift.String, Swift.Codable {
@@ -98,9 +82,7 @@ public class PaymentGateway : Swift.Codable {
     case gifts
     case crypto
     case roundup
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -108,10 +90,29 @@ public class PaymentGateway : Swift.Codable {
   }
   @objc deinit
 }
+public struct FundingSourceLinkingConfig : Swift.Codable {
+  public let linkingPartner: Swift.String?
+  public let provider: Swift.String?
+  public let type: Swift.String?
+  public let linkToken: Swift.String?
+  public let linkTokenUrl: Swift.String?
+  public let connectUrl: Swift.String?
+  public let environment: Swift.String?
+  public let partnerId: Swift.String?
+  public init(linkingPartner: Swift.String? = nil, provider: Swift.String? = nil, type: Swift.String? = nil, linkToken: Swift.String? = nil, linkTokenUrl: Swift.String? = nil, connectUrl: Swift.String? = nil, environment: Swift.String? = nil, partnerId: Swift.String? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public struct PlaidFundingSource : Swift.Codable {
   public var token: Swift.String
   public var type: Swift.String
   public init(token: Swift.String, type: Swift.String = "bank_account")
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FinicityFundingSource : Swift.Codable {
+  public var accountId: Swift.String
+  public init(accountId: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -123,40 +124,20 @@ public struct PlaidLinkToken : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public protocol AccountsSdk {
-  #if compiler(>=5.3) && $NonescapableTypes
   func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any AccountsSDK.ASDKTokenRefreshCallback, loggingCallback: (any CoreSDK.LoggingCallback)?)
-  #endif
   func configure(accessToken: Swift.String, tokenRefreshCallback: any AccountsSDK.ASDKTokenRefreshCallback)
-  #if compiler(>=5.3) && $NonescapableTypes
   func getAccounts(cardId: Swift.String, completion: @escaping (_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getPaymentGateways(cardId: Swift.String, completion: @escaping (_ result: Swift.Result<[AccountsSDK.PaymentGateway], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  func getLinkingConfig(cardId: Swift.String, appId: Swift.String, completion: @escaping (_ result: Swift.Result<AccountsSDK.FundingSourceLinkingConfig, any Swift.Error>) -> Swift.Void)
   func getAddAccountToken(cardId: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func addStripeAccount(cardId: Swift.String, stripeCardToken: Swift.String, name: Swift.String, completion: @escaping (_ result: Swift.Result<AccountsSDK.Account, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func renameAccounts(cardId: Swift.String, renameMap: [Swift.String : Swift.String], completion: @escaping (_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getExistingPlaidToken(cardId: Swift.String, appId: Swift.String, accountId: Swift.String, completion: @escaping (_ result: Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getNewPlaidToken(cardId: Swift.String, appId: Swift.String, completion: @escaping (_ result: Swift.Result<AccountsSDK.PlaidLinkToken, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func addPlaidAccount(cardId: Swift.String, publicToken: Swift.String, completion: @escaping (_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  func addFinicityAccount(cardId: Swift.String, accountId: Swift.String, completion: @escaping (_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void)
   func deactivateAccount(accountId: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func reorderAccounts(cardId: Swift.String, accountIds: [Swift.String], completion: @escaping (_ result: Swift.Result<[AccountsSDK.Account], any Swift.Error>) -> Swift.Void)
-  #endif
   func logout()
 }
 public protocol ASDKTokenRefreshCallback {
